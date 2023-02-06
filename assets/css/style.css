@@ -1,0 +1,235 @@
+body{
+margin: 0;
+border: 0;
+background-color: black;
+
+}
+
+html:target{
+    scroll-behavior: smooth;
+}
+
+.nav-Menu{
+
+background-color: black;
+width: 100%;
+height: 100px;
+display: flex;
+align-items: center;
+border:1px solid rgb(22, 22, 22);
+
+
+}
+
+.logoMenu{
+    background-color:black;
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.div-Nome{
+    background-color:black;
+    width: 250px;
+    height: 70px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-Nome label{
+ color: white;
+ font-size: 30px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-listaMenus{
+    background-color:black;
+    width: calc(100% - 100px - 200px);
+    height: 70px;
+    margin-left: 10px;
+   
+
+}
+
+.ul-menu{
+display: flex;
+justify-content: space-around;
+margin-left: 400px;
+color: white;
+
+
+}
+
+.div-Projetos{
+ background-color: black;
+ height: 500px;
+ width: 100%;
+ margin-top: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: -50px;
+ flex-wrap:w wrap;
+}
+
+.iconContatos{
+width: calc(100%-400px);
+
+height: 100px;
+display: flex;
+justify-content: space-around;
+
+}
+
+.div-nome-Projetos{
+
+    background-color: rgb(8 8 8);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+li{
+    list-style-type: none;
+    transition: all 1s linear;
+
+}
+
+li:hover{
+    
+    height: 20px;
+    border-bottom: 3px solid red
+    
+   
+}
+
+.icon-menu{
+width: 30px;
+height: 70px;
+background-color:rgb(23, 24, 24);
+margin-left: 5px;
+margin-right: 5px;
+
+}
+
+.label-projetos{
+
+    color: white;
+    font-size: 40px;
+}
+
+.div-modulosProjeto{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border:1px solid rgb(173, 111, 182);
+
+}
+
+.div-modulosProjeto label{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.infopessoais{
+
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.imagemuser{
+
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(24, 23, 23);
+}
+
+.logoimage{
+    width: 300px;
+    height: 350px;
+   border-top-left-radius: 10px;
+    margin-top: -100px;
+
+}
+
+.infouser{
+   
+    width: calc(100% - 400px);
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 5px;
+   border: 1px solid rgb(22, 22, 22);
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+.labelnome{
+    color: rgb(214, 34, 34);
+    font-size: 25px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.nomeinfo{
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.profissaouser{
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.conteudouser{
+    color: white;
+    font-size: 15px;
+   
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+.iconContatos img{
+width: 50px;
+height: 50px;
+}
+
